@@ -46,11 +46,6 @@ project_root/
 │   │   ├── logging.md               # ログ戦略
 │   │   └── doc.md                   # ドキュメント戦略
 │   ├── requirement/                 # 機能開発フロー（/req コマンド成果物）
-│   └── workflow/                    # AIワークフロー定義
-│       ├── vision-strategy.yaml     # ビジョン・戦略定義ワークフロー
-│       ├── initial-ux-design.yaml   # 初期UX設計ワークフロー
-│       ├── requirements.yaml        # 要件定義ワークフロー
-│       └── overview.md              # ワークフロー概要
 ├── pubspec.yaml                     # 依存関係・プロジェクト設定
 ├── analysis_options.yaml            # Linter設定
 └── README.md                        # プロジェクト概要
