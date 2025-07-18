@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:game_concierge/core/network/interceptors/logging_interceptor.dart';
 import 'package:simple_logger/simple_logger.dart';
-import 'package:test_app/core/network/interceptors/logging_interceptor.dart';
 
 // Mock ErrorInterceptorHandler
 class _MockErrorInterceptorHandler extends ErrorInterceptorHandler {
@@ -23,7 +23,7 @@ void main() {
       logLevel = null;
 
       logger = SimpleLogger()
-        ..setLevel(Level.FINEST, includeCallerInfo: false)
+        ..setLevel(Level.FINEST)
         ..onLogged = (log, info) {
           logMessages.add(log);
           logLevel = info.level;
@@ -57,7 +57,6 @@ void main() {
       // Arrange
       interceptor = LoggingInterceptor(
         logger: logger,
-        enableDetailedLog: false,
       );
 
       final options = RequestOptions(
@@ -125,7 +124,6 @@ void main() {
       // Arrange
       interceptor = LoggingInterceptor(
         logger: logger,
-        enableDetailedLog: false,
       );
 
       final response = Response(

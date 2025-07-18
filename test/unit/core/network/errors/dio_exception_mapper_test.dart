@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:test_app/core/network/errors/dio_exception_mapper.dart';
-import 'package:test_app/core/network/errors/network_exception.dart';
+import 'package:game_concierge/core/network/errors/dio_exception_mapper.dart';
+import 'package:game_concierge/core/network/errors/network_exception.dart';
 
 void main() {
   group('DioExceptionMapper', () {
@@ -72,7 +72,6 @@ void main() {
     test('不明なエラーをNetworkExceptionに変換する', () {
       // Arrange
       final dioError = DioException(
-        type: DioExceptionType.unknown,
         error: 'Something went wrong',
         requestOptions: RequestOptions(path: '/test'),
       );

@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:test_app/core/config/build_mode.dart';
+import 'package:game_concierge/core/config/build_mode.dart';
 
 void main() {
   group('BuildMode enum', () {

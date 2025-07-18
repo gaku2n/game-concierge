@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:test_app/core/config/flavor.dart';
+import 'package:game_concierge/core/config/flavor.dart';
 
 void main() {
   group('Flavor', () {

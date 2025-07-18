@@ -1,7 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
+import 'package:game_concierge/core/config/flavor.dart';
+import 'package:game_concierge/core/utils/logger.dart';
 import 'package:simple_logger/simple_logger.dart';
-import 'package:test_app/core/config/flavor.dart';
-import 'package:test_app/core/utils/logger.dart';
 
 void main() {
   group('Logger基本機能テスト', () {

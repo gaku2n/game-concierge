@@ -1,10 +1,10 @@
 import 'package:dio/dio.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:test_app/core/config/flavor.dart';
-import 'package:test_app/core/config/flavor_provider.dart';
-import 'package:test_app/core/network/dio_client.dart';
-import 'package:test_app/core/network/interceptors/logging_interceptor.dart';
+import 'package:game_concierge/core/config/flavor.dart';
+import 'package:game_concierge/core/config/flavor_provider.dart';
+import 'package:game_concierge/core/network/dio_client.dart';
+import 'package:game_concierge/core/network/interceptors/logging_interceptor.dart';
 
 void main() {
   group('DioClient', () {
