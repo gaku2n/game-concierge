@@ -45,19 +45,6 @@ project_root/
 │   │   ├── l10n.md                  # 多言語対応ガイド
 │   │   ├── logging.md               # ログ戦略
 │   │   └── doc.md                   # ドキュメント戦略
-│   ├── vision/                      # ビジョン・戦略定義（/vision コマンド成果物）
-│   │   ├── value_opportunity.md     # 価値機会の発見・定義
-│   │   ├── market_context.md        # 市場環境の理解
-│   │   ├── product_concept.md       # コンセプト設計
-│   │   ├── implementation_strategy.md # 実現戦略の策定
-│   │   └── vision_package_summary.md # ビジョンパッケージ完成
-│   ├── ux-design/                   # UX設計定義（/ux コマンド成果物）
-│   │   ├── user_journey_design.md   # ユーザージャーニー設計
-│   │   ├── feature_value_map.md     # 機能価値の整理
-│   │   ├── information_structure.md # 情報構造設計
-│   │   ├── experience_flows.md      # 体験フロー設計
-│   │   ├── screen_function_definitions.md # 画面機能定義
-│   │   └── ux_design_summary.md     # UX設計検証・完成
 │   ├── requirement/                 # 機能開発フロー（/req コマンド成果物）
 │   └── workflow/                    # AIワークフロー定義
 │       ├── vision-strategy.yaml     # ビジョン・戦略定義ワークフロー
