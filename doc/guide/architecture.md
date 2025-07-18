@@ -39,6 +39,7 @@ project_root/
 ├── doc/                             # プロジェクトドキュメント
 │   ├── guide/                       # 開発ガイド
 │   │   ├── architecture.md          # アーキテクチャガイド（このファイル）
+│   │   ├── concept.md               # アプリコンセプト
 │   │   ├── features.md              # 機能一覧・ディレクトリ構成
 │   │   ├── http-client.md           # HTTP通信実装ガイド（Clean Architecture）
 │   │   ├── test.md                  # テスト戦略
