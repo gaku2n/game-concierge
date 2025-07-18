@@ -4,17 +4,74 @@ publish_to: 'none'
 version: 0.1.0
 
 environment:
-  sdk: ^3.8.1
+  sdk: ">=3.8.1"
 
 dependencies:
   flutter:
     sdk: flutter
 
+## --- Core Packages ---
+  hooks_riverpod: ^3.0.0-dev.16
+  flutter_hooks:
+  flutter_riverpod:
+  riverpod_annotation:
+  freezed_annotation: 
+  json_annotation: 
+  go_router:
+
+## --- localize ---
+  intl:
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: # l10n有効化のために必要
+
+## --- UI ---
+
+## --- Cooding ---
+  package_info_plus:
+  collection: # Dartのコレクション（配列等）の拡張
+
+## --- HTTP Client ---
+  dio: ^5.8.0+1
+  retrofit: ^4.4.2
+
+## --- Logging ---
+  simple_logger: ^1.10.0
+
+# --- for development ---
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^5.0.0
+  integration_test:
+    sdk: flutter
+
+## -- tools --
+  dependency_validator: # 不要な依存関係を検出
+
+## -- lint ---
+  flutter_lints: 
+  pedantic_mono:
+  riverpod_lint:
+  custom_lint:
+
+## -- auto generate --
   flutter_launcher_icons: ^0.14.4
+  build_runner:
+  riverpod_generator:
+  go_router_builder:
+  json_serializable: ^6.9.5
+  freezed: ^3.0.6
+  flutter_gen_runner:
+  retrofit_generator: ^9.2.0
+  mockito: ^5.4.4
 
 flutter:
+  generate: true
+  assets:
+    - assets/images/launcher_icon/android/
+    - assets/images/launcher_icon/ios/
   uses-material-design: true
+
+flutter_gen:
+  integrations:
+    flutter_svg: true

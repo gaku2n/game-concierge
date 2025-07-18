@@ -1,0 +1,31 @@
+{
+  "@@locale": "ja",
+  "homeDescription": "これはホーム画面です",
+  "@homeDescription": {
+    "description": "ホーム画面の説明文"
+  },
+  "homeTabLabel": "ホーム",
+  "@homeTabLabel": {
+    "description": "ホームタブのラベル"
+  },
+  "homeTitle": "ホーム",
+  "@homeTitle": {
+    "description": "ホーム画面のタイトル"
+  },
+  "homeWelcomeMessage": "Welcome to TestApp",
+  "@homeWelcomeMessage": {
+    "description": "ホーム画面のウェルカムメッセージ"
+  },
+  "settingsPlaceholder": "設定画面のプレースホルダー",
+  "@settingsPlaceholder": {
+    "description": "設定画面のプレースホルダーテキスト"
+  },
+  "settingsTabLabel": "設定",
+  "@settingsTabLabel": {
+    "description": "設定タブのラベル"
+  },
+  "settingsTitle": "設定",
+  "@settingsTitle": {
+    "description": "設定画面のタイトル"
+  }
+}

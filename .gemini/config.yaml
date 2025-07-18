@@ -1,0 +1,12 @@
+have_fun: true                # ポエムなどの遊び要素を有効化
+ignore_patterns: []           # 除外するファイル/ディレクトリのglobパターン
+
+code_review:
+  disable: false              # プルリク時のアクションを無効化
+  comment_severity_threshold: HIGH  # コメントにする重大度の下限 (LOW/​MEDIUM/​HIGH/​CRITICAL)
+  max_review_comments: -1     # コメント最大数 (-1=無制限)
+
+  pull_request_opened:
+    help: true              # PRオープン時にヘルプメッセージを投稿
+    summary: false             # PRオープン時に変更点サマリーを投稿
+    code_review: true         # PRオープン時にコードレビューを投稿

@@ -1,0 +1,27 @@
+targets:
+  $default:
+    builders:
+      # Build order: freezed -> json_serializable -> retrofit_generator
+      freezed:
+        enabled: true
+        generate_for:
+          - "lib/core/network/**/*.dart"
+          - "lib/features/**/model/*.dart"
+          - "lib/features/**/state/*.dart"
+          
+      json_serializable|json_serializable:
+        enabled: true
+        generate_for:
+          - "lib/core/network/**/*.dart"
+          - "lib/features/**/model/*.dart"
+          - "lib/features/**/state/*.dart"
+        options:
+          explicit_to_json: true
+          include_if_null: false
+          
+      retrofit_generator|retrofit_generator:
+        enabled: true
+        generate_for:
+          - "lib/core/network/**/*_api.dart"
+          - "lib/features/**/datasource/*.dart"
+          - "lib/features/**/datasource/*.dart"
